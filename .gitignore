@@ -4,13 +4,11 @@ __pycache__/
 .pytest_cache/
 *.pyc
 
-.env
 agent/.env
 
 .claude/*
 !.claude/hooks.json
 CLAUDE.md
-.vscode/
 learn-claude-code-main/
 agent/sessions/
 agent/runs/
@@ -40,3 +38,5 @@ agent/vibe_trading_ai.egg-info/
 agent/tests/e2e_backtest/
 dist/
 build/
+config.bat
+node_modules
